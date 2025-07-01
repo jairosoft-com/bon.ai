@@ -8,7 +8,7 @@ npx tsc --init
 npm install -D playwright
 npx playwright install
 npm install openai
-3. Open .env file and change the value to chatgpt secret key
+3. Open .env.local file and change the value to chatgpt secret key, remove the .example extention
 4. Open the file on vscode 
 5. Open testcase.json under Data folder
 6. Edit Test cases (these are the testcases that will be feeded to chatgpt in which chatgpt convert it to playwright typescript and execute it)

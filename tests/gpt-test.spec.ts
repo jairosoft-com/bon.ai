@@ -1,1 +1,0 @@
-// Here is where the scripts which GPT create and be saved base on the test scenario given on test-scenario.ts
