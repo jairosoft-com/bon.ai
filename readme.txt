@@ -35,3 +35,6 @@ FAQ
 
 3. How to open past report?
  - For old report execution, the report can be open using "npx allure open ./allure-history/FILENAME"
+
+4. Where to put the file to attach?
+ - For files, put it under ./data and on testcase.json explicitly put the file URL
