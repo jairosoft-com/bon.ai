@@ -1,0 +1,376 @@
+[
+{
+"id": "TestCase01",
+"title": "Verify Landing Page section",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBv] is Visible ",
+"Verify if [selector=.bubble-element.Text.baTeaBaX] is Visible ",
+"Verify if [selector=.bubble-element.Text.baTeaBp] is Visible ",
+"Verify if [selector=.bubble-element.Text.baTtzn] is Visible ",
+"Verify if [selector=.bubble-element.Text.baTwaOe0] is Visible ",
+"Verify if [selector=.bubble-element.Text.baTeaCaB] is Visible ",
+"Verify if 'Core Services' is Visible",
+"Verify if 'Client Testimonials' is Visible",
+"Verify if 'Offices' is Visible"
+]
+},
+{
+"id": "TestCase02",
+"title": "Verify Lets Talk button on Landing Page section",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.clickable-element bubble-element Button baTrul flex-aligned-button] button is Visible",
+"Click [selector=.clickable-element bubble-element Button baTrul flex-aligned-button] button",
+"Verify if 'Feel free to get in touch with us via email or phone.' is visible"
+]
+},
+{
+"id": "TestCase03",
+"title": "Verify Core Services Section in Landing Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if 'Core Services' is Visible",
+"Click the button with selector '.bubble-element.Text.baUaFnm0.clickable-element.bubble-r-vertical-center' at index 0",
+"Verify if 'What We Do' is visible",
+"Verify if 'Low Code/No-Code Development' is visible"
+]
+},
+{
+"id": "TestCase04",
+"title": "Verify What We Do Menu",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBv] is Visible"
+]
+},
+{
+"id": "TestCase05",
+"title": "Verify What We Do Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBv] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBv]",
+"Verify if 'What We Do' text is visible",
+"Verify if 'Low Code/No-Code Development' is visible",
+"Verify if 'Lean-Thinking & Agile Software Methodology' is visible",
+"Verify if 'Digital Experience Platform (DXP)' is visible",
+"Verify if 'Nearshore/Offshore/Multi-Shore Resources' is visible",
+"Verify if [selector=text=Platform Engineering >> nth=0] is visible",
+"Verify if [selector=text=AI/ML >> nth=0] is visible"
+]
+},
+{
+"id": "TestCase06",
+"title": "Verify Who We Serve Menu",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBaX] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBaX]",
+"Verify if element with selector .bubble-element.Text.baTgim and text 'Industries & Testimonials' is visible using :has-text",
+"Verify if element with selector .bubble-element.Text.baTgim and text 'NAICS' is visible using :has-text"
+]
+},
+{
+"id": "TestCase07",
+"title": "Verify Industries Section",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBaX] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBaX]",
+"Verify if element with selector .bubble-element.Text.baTgim and text 'Industries & Testimonials' is visible using :has-text",
+"Click on .bubble-element.Text.baTgim and text 'Industries & Testimonials' is visible using :has-text",
+"Verify if .bubble-element.Text.baTvtr text 'Industries' is visible using :has-text is visible"
+]
+},
+{
+"id": "TestCase08",
+"title": "Verify Testimonials Section",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBaX] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBaX]",
+"Verify if element with selector .bubble-element.Text.baTgim and text 'Industries & Testimonials' is visible using :has-text",
+"Click on .bubble-element.Text.baTgim and text 'Industries & Testimonials' is visible using :has-text",
+"Verify if element with selector .bubble-element Text baTvvk bubble-r-vertical-center and text 'What Clients Say' is Visible"
+]
+},
+{
+"id": "TestCase09",
+"title": "Verify NAICS Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBaX] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBaX]",
+"Verify if element with selector .bubble-element.Text.baTgim and text 'NAICS' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTgim and text 'NAICS' is visible using :has-text",
+"Verify if 'Jairosoft NAICS Code Product & Service Offerings' is visible"
+]
+},
+{
+"id": "TestCase10",
+"title": "Verify Who We Are Menu",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBp] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBp]",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Our History' is visible using :has-text is Visible",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Our Mission, Vision & Culture' is visible using :has-text",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Code of Business Conduct' is visible using :has-text",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Executive Leadership' is visible using :has-text",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Technical Leads & Certified Experts' is visible using :has-text",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Partners' is visible using :has-text",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Locations' is visible using :has-text"
+]
+},
+{
+"id": "TestCase11",
+"title": "Verify Our History Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBp] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBp]",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Our History' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTgiaW and text 'Our History' is visible using :has-text ",
+"Verify if [selector=#main-video] is visible"
+]
+},
+{
+"id": "TestCase12",
+"title": "Verify Our Mission, Vision & Culture Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBp] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBp]",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Our Mission, Vision & Culture' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTgiaW and text 'Our Mission, Vision & Culture' is visible using :has-text",
+"Verify if 'Our mission is to provide sustainable ' is visible",
+"Verify if 'Our Vision' is visible",
+"Verify if 'Aloha Culture' is visible"
+]
+},
+{
+"id": "TestCase13",
+"title": "Verify Code of Business Conduct Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBp] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBp]",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Code of Business Conduct' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTgiaW and text 'Code of Business Conduct' is visible using :has-text",
+"Verify if 'At Jairosoft, we are committed to conducting our business with integrity, transparency, and responsibility. This Code of Business Conduct serves as a guide for all employees, contractors, and partners in upholding ethical and professional standards in every aspect of our operations. Adherence to this Code ensures that we foster a culture of trust, accountability, and excellence across all business activities.' is visible"
+]
+},
+{
+"id":"TestCase14",
+"title": "Verify Executive Leadership Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBp] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBp]",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Executive Leadership' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTgiaW and text 'Executive Leadership' is visible using :has-text",
+"Verify if 'Chief Executive Officer & Founder' is visible",
+"Verify if 'Ramon Aseniero' is visible"
+]
+},
+{
+"id": "TestCase15",
+"title": "Verify Technical Leads & Certified Experts Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBp] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBp]",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Technical Leads & Certified Experts' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTgiaW and text 'Technical Leads & Certified Experts' is visible using :has-text",
+"Verify if 'Agile Project Manager' is visible",
+"Verify if 'Karl Jordan Caumban' is visible"
+]
+},
+{
+"id": "TestCase16",
+"title": "Verify Partners Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBp] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBp]",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Partners' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTgiaW and text 'Partners' is visible using :has-text",
+"Verify if 'Premier Partners' is visible",
+"Verify if 'Technology & Solution Partners' is visible"
+]
+},
+{
+"id": "TestCase17",
+"title": "Verify Locations Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaBp] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaBp]",
+"Verify if element with selector .bubble-element.Text.baTgiaW and text 'Locations' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTgiaW and text 'Locations' is visible using :has-text",
+"Verify if 'Located in the peaceful city of Victorville, California, our Jairosoft office offers a unique home-like ambiance that sets it apart. Designed to feel welcoming and comfortable, the space blends professional functionality with the warmth of a home environment—making it easy to focus, collaborate, and feel at ease.' is visible",
+"Verify if 'Our Jairosoft Hawaii office is located within a dynamic co-working space that reflects the energy and creativity of the islands. Surrounded by like-minded professionals and innovative startups, the environment encourages collaboration, fresh ideas, and flexible workstyles.' is visible",
+"Verify if 'Strategically located in the heart of Cebu City, the Jairosoft office offers the perfect balance of accessibility and convenience. Surrounded by key business hubs, dining spots, and transportation links, our location puts us right where the action is.' is visible",
+"Verify if 'Nestled in the heart of Davao, the Jairosoft office embodies a perfect balance of nature and contemporary design. Surrounded by lush greenery, our workspace offers a refreshing environment that fosters creativity, productivity, and well-being.' is visible"
+]
+},
+{
+"id": "TestCase18",
+"title": "Verify News & Insights Menu",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTtzn] is Visible",
+"Click on [selector=.bubble-element.Text.baTtzn]",
+"Verify if element with selector .bubble-element.Text.baThxaS and text 'News and Blogs' is visible using :has-text",
+"Verify if element with selector .bubble-element.Text.baThxaS and text 'Tutorials' is visible using :has-text"
+]
+},
+{
+"id": "TestCase19",
+"title": "Verify News and Blogs Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTtzn] is Visible",
+"Click on [selector=.bubble-element.Text.baTtzn]",
+"Verify if element with selector .bubble-element.Text.baThxaS and text 'News and Blogs' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baThxaS and text 'News and Blogs' is visible using :has-text",
+"Verify if element with selector .bubble-element.Text.baTyns and text 'General > Post' is visible using :has-text"
+]
+},
+{
+"id": "TestCase20",
+"title": "Verify Tutorials Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTtzn] is Visible",
+"Click on [selector=.bubble-element.Text.baTtzn]",
+"Verify if element with selector .bubble-element.Text.baThxaS and text 'Tutorials' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baThxaS and text 'Tutorials' is visible using :has-text",
+"Verify if element with selector .bubble-element.Text.baUaAaZaG0 and text 'General > Tutorials' is visible using :has-text"
+]
+},
+{
+"id": "TestCase21",
+"title": "Verify Careers Menu",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTwaOe0] is Visible",
+"Click on [selector=.bubble-element.Text.baTwaOe0]",
+"Verify if element with selector .bubble-element.Text.baTwjs and text 'Current Opportunities' is visible using :has-text",
+"Verify if element with selector .bubble-element.Text.baTwjs and text 'Verification of Employment & Internship Inquiry' is visible using :has-text"
+]
+},
+{
+"id": "TestCase22",
+"title": "Verify Current Opportunities Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTwaOe0] is Visible",
+"Click on [selector=.bubble-element.Text.baTwaOe0]",
+"Verify if element with selector .bubble-element.Text.baTwjs and text 'Current Opportunities' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTwjs and text 'Current Opportunities' is visible using :has-text",
+"Verify if 'Find Job' button is visible"
+]
+},
+{
+"id": "TestCase23",
+"title": "Verify Verification of Employment & Internship Inquiry Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTwaOe0] is Visible",
+"Click on [selector=.bubble-element.Text.baTwaOe0]",
+"Verify if element with selector .bubble-element.Text.baTwjs and text 'Verification of Employment & Internship Inquiry' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTwjs and text 'Verification of Employment & Internship Inquiry' is visible using :has-text",
+"Verify if 'To request a verification of employment for a current or former Jairosoft employee, please fill up and submit with attached signed and dated authorization from the employee. ' is visible",
+"Verify if 'Jairosoft welcomes internship inquiries from students looking to gain hands-on experience in the industry. To apply, please submit your request with the following required documents: ' is visible"
+]
+},
+{
+"id": "TestCase24",
+"title": "Verify Verification of Employment Functionality",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTwaOe0] is Visible",
+"Click on [selector=.bubble-element.Text.baTwaOe0]",
+"Verify if element with selector .bubble-element.Text =.baTwjs and text 'Verification of Employment & Internship Inquiry' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTwjs and text 'Verification of Employment & Internship Inquiry' is visible using :has-text",
+"Verify if 'To request a verification of employment for a current or former Jairosoft employee, please fill up and submit with attached signed and dated authorization from the employee.' is visible",
+"Verify if 'Jairosoft welcomes internship inquiries from students looking to gain hands-on experience in the industry. To apply, please submit your request with the following required documents:' is visible",
+"Fill locator('#employment').getByRole('textbox', { name: 'Enter your First Name' }) with 'Bon'",
+"Fill locator('#employment').getByRole('textbox', { name: 'Enter your Last Name' }) with 'Test'",
+"Fill locator('#employment').getByRole('textbox', { name: 'Enter your Position' }) with 'QA'",
+"Fill locator('#employment').getByRole('textbox', { name: 'Enter your Request' }) with 'Test Message'",
+"Fill locator('#employment').getByRole('textbox', { name: 'Enter your Email' }) with 'bcueva@jarosoft.com'",
+"Upload './data/dummy.pdf' to file input with selector '#test1 input[type=\"file\"]'",
+"Click on [selector='.clickable-element.bubble-element.Icon.baTwaBaY2']",
+"Click [selector=.clickable-element.bubble-element.Button.baTwaBaS2]"
+]
+},
+{
+"id": "TestCase25",
+"title": "Verify Internship Inquiry Functionality",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTwaOe0] is Visible",
+"Click on [selector=.bubble-element.Text.baTwaOe0]",
+"Verify if element with selector .bubble-element.Text.baTwjs and text 'Verification of Employment & Internship Inquiry' is visible using :has-text",
+"Click on element with selector .bubble-element.Text.baTwjs and text 'Verification of Employment & Internship Inquiry' is visible using :has-text",
+"Verify if 'To request a verification of employment for a current or former Jairosoft employee, please fill up and submit with attached signed and dated authorization from the employee.' is visible",
+"Verify if 'Jairosoft welcomes internship inquiries from students looking to gain hands-on experience in the industry. To apply, please submit your request with the following required documents:' is visible",
+"Fill locator('#internship').getByRole('textbox', { name: 'Enter your First Name' }) with 'Bon'",
+"Fill locator('#internship').getByRole('textbox', { name: 'Enter your Last Name' }) with 'Test'",
+"Fill locator('#internship').getByRole('textbox', { name: 'Enter your Email' }) with 'bcueva@jarosoft.com'",
+"Fill locator('#internship').getByRole('textbox', { name: 'Enter your School' }) with 'AMA'",
+"Fill locator('#internship').getByRole('textbox', { name: 'Enter your Course' }) with 'BSIT'",
+"Fill locator('#internship').getByRole('textbox', { name: ': : - : :' }) with '365'",
+"Fill locator('#internship').getByRole('textbox', { name: 'Enter your OJT Coordinator Full Name' }) with 'Ms. Minchin'",
+"Fill locator('#internship').getByRole('textbox', { name: 'Enter your OJT Coordinator Email' }) with 'rparacuelles@jairosoft.com'",
+"Upload './data/dummy.pdf' to file input with selector '#test input[type=\"file\"]'",
+"Click on [selector=.clickable-element.bubble-element.Icon.baTwaFx2]",
+"Click [selector=.clickable-element.bubble-element.Button.baTwaFr2]"
+]
+},
+
+{
+"id":"TestCase26",
+"title": "Verify Contact Us Menu",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaCaB] is Visible"
+]
+},
+{
+"id": "TestCase27",
+"title": "Verify Contact Us Page",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaCaB] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaCaB]",
+"Verify if 'Use our contact form for all information requests or contact is directly using the contact information below.' is visible"
+]
+},
+{
+"id": "TestCase28",
+"title": "Verify Get in Touch Functionality",
+"steps": [
+"Navigate to https://jairosoft.com",
+"Verify if [selector=.bubble-element.Text.baTeaCaB] is Visible",
+"Click on [selector=.bubble-element.Text.baTeaCaB]",
+"Verify if 'Use our contact form for all information requests or contact is directly using the contact information below.' is visible",
+"Select 'General Inquiry' from [selector=select.bubble-element.Dropdown.dropdown-chevron]",
+"Fill 'Bon' into the input with placeholder 'Enter your First Name'",
+"Fill 'Test' into the input with placeholder 'Enter your Last Name'",
+"Fill '99999' into the input with placeholder '201-555-0123'",
+"Fill 'bcueva@jairosoft.com' into the input with placeholder 'Enter your Email'",
+"Fill 'Jairosoft' into the input with placeholder 'Enter your Company'",
+"Fill 'This is a test message' into the textarea with placeholder 'Enter your Message",
+"Click [selector=.clickable-element.bubble-element.Icon.baTlte1]",
+"Click [selector=.clickable-element.bubble-element.Button.baTltaX1]"
+]
+}
+]
+
+
+
+
