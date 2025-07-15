@@ -1,3 +1,9 @@
 /node_modules
 /allure-reports
 /allure-results
+/allure-report
+/data
+/allure-history
+/test-results
+/tests/run-all.spec.ts
+/.history
